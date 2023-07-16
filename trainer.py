@@ -33,6 +33,6 @@ model.fit(reduced_X, labels)
 # save model
 joblib.dump(model, 'detector.joblib')
 
-# evaluate model
+# # evaluate model
 # accuracy = accuracy_score(y_true=y_test, y_pred=model.predict(x_test))
 # print(accuracy)
